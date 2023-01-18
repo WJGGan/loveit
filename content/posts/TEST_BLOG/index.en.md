@@ -58,3 +58,4 @@ lightgallery: true
 去露营啦! :tent: 很快就回来.
 
 真开心! :joy:
+Emoji 无法使用，config文件中的enableEmoji 已经开启为true 但为啥无法使用？？？？！！！！
