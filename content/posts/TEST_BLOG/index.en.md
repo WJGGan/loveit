@@ -23,7 +23,9 @@ lightgallery: true
 
 网站开发阶段的信息 :joy: 
 :heart_eyes:
-
+基本写作功能已经实现
+可以开始写东西了！
+不方便的再慢慢调试吧
 <!--more-->
 
 ## 已经实现的功能 {#test-done}
