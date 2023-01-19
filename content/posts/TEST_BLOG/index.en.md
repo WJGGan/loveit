@@ -61,7 +61,87 @@ git add .
 git commit -m "commit messages"
 git push
 ```
+{{< admonition failure"报错1">}}
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/WJGGan/loveit.git'
+{{< /admonition >}}
 
+{{< admonition success"解决">}}
+*原因：*远程库与本地库不一致造成的，在hint中也有提示把远程库同步到本地库就可以了
+```
+git pull
+```
+{{< /admonition >}}
+
+{{< admonition failure"报错2">}}
+fatal: unable to access 'https://github.com/WJGGan/loveit.git/': Recv failure: Connection was reset
+{{< /admonition >}}
+
+{{< admonition success"解决">}}
+*原因：*一般是这是因为服务器的SSL证书没有经过第三方机构的签署,解除ssl验证后，再次git即可
+```
+git config --global http.sslVerify "false"
+```
+{{< /admonition >}}
+### 5 横幅
+{{< admonition >}}
+一个 **注意** 横幅
+{{< /admonition >}}
+
+{{< admonition abstract >}}
+一个 **摘要** 横幅
+abstract
+{{< /admonition >}}
+
+{{< admonition info >}}
+一个 **信息** 横幅
+info
+{{< /admonition >}}
+
+{{< admonition tip >}}
+一个 **技巧** 横幅
+ tip
+{{< /admonition >}}
+
+{{< admonition success >}}
+一个 **成功** 横幅
+success
+{{< /admonition >}}
+
+{{< admonition question >}}
+一个 **问题** 横幅
+question
+{{< /admonition >}}
+
+{{< admonition warning >}}
+一个 **警告** 横幅
+warning
+{{< /admonition >}}
+
+{{< admonition failure >}}
+一个 **失败** 横幅
+failure
+{{< /admonition >}}
+
+{{< admonition danger >}}
+一个 **危险** 横幅
+danger
+{{< /admonition >}}
+
+{{< admonition bug >}}
+一个 **Bug** 横幅
+bug
+{{< /admonition >}}
+
+{{< admonition example >}}
+一个 **示例** 横幅
+example
+{{< /admonition >}}
+
+{{< admonition quote >}}
+一个 **引用** 横幅
+quote
+{{< /admonition >}}
 ***
 ## 未实现的功能 {#test-no}
 
