@@ -67,7 +67,7 @@ error: failed to push some refs to 'https://github.com/WJGGan/loveit.git'
 {{< /admonition >}}
 
 {{< admonition success"解决">}}
-**原因：**远程库与本地库不一致造成的，在hint中也有提示把远程库同步到本地库就可以了
+**原因：** 远程库与本地库不一致造成的，在hint中也有提示把远程库同步到本地库就可以了
 ```
 git pull
 ```
@@ -78,7 +78,8 @@ fatal: unable to access 'https://github.com/WJGGan/loveit.git/': Recv failure: C
 {{< /admonition >}}
 
 {{< admonition success"解决">}}
-**原因：**一般是这是因为服务器的SSL证书没有经过第三方机构的签署,解除ssl验证后，再次git即可
+
+**原因：** 一般是这是因为服务器的SSL证书没有经过第三方机构的签署,解除ssl验证后，再次git即可
 ```
 git config --global http.sslVerify "false"
 ```
@@ -162,10 +163,17 @@ quote
 ***
 ## 未实现的功能 {#test-no}
 
-### 1 网站图标（LOGO）
+### 1 ~~网站图标（LOGO）~~
    
 ### 2 Emoji
 去露营啦! :tent: 很快就回来.
-
 真开心! :joy:
-Emoji 无法使用，config文件中的enableEmoji 已经开启为true 但为啥无法使用？？？？！！！！
+Emoji 无法使用，config文件中的enableEmoji 
+已经开启为true 但为啥无法使用？？？？！！！！
+没有Emoji少了狠多乐趣
+
+
+## 3代码隐藏和复制
+估计是配置文件的问题
+隐藏问题可以使用横幅嵌套代码实现
+应该也很少会贴代码 
