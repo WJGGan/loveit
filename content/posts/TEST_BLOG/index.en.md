@@ -59,7 +59,7 @@ netlify发布无法载入图片。
 git init 
 git add .
 git commit -m "commit messages"
-git push
+git push  -u origin master
 ```
 {{< admonition failure"报错1">}}
 ! [rejected]        master -> master (fetch first)
@@ -83,6 +83,8 @@ fatal: unable to access 'https://github.com/WJGGan/loveit.git/': Recv failure: C
 git config --global http.sslVerify "false"
 ```
 {{< /admonition >}}
+
+在vscode中也可以直接git
 ### 5 横幅
 {{< admonition >}}
 一个 **注意** 横幅
