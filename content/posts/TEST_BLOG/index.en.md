@@ -85,6 +85,16 @@ git config --global http.sslVerify "false"
 {{< /admonition >}}
 
 在vscode中也可以直接git
+很方便
+{{< admonition tip"步骤">}}
+
+*1更改文件
+*2打开vscode左侧的源代码管理
+*3点击+号暂存更改
+*4输入commit信息
+*5点击提交即可
+
+{{< /admonition>}}
 ### 5 横幅
 {{< admonition >}}
 一个 **注意** 横幅
