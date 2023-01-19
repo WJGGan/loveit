@@ -67,7 +67,7 @@ error: failed to push some refs to 'https://github.com/WJGGan/loveit.git'
 {{< /admonition >}}
 
 {{< admonition success"解决">}}
-*原因：*远程库与本地库不一致造成的，在hint中也有提示把远程库同步到本地库就可以了
+**原因：**远程库与本地库不一致造成的，在hint中也有提示把远程库同步到本地库就可以了
 ```
 git pull
 ```
@@ -78,7 +78,7 @@ fatal: unable to access 'https://github.com/WJGGan/loveit.git/': Recv failure: C
 {{< /admonition >}}
 
 {{< admonition success"解决">}}
-*原因：*一般是这是因为服务器的SSL证书没有经过第三方机构的签署,解除ssl验证后，再次git即可
+**原因：**一般是这是因为服务器的SSL证书没有经过第三方机构的签署,解除ssl验证后，再次git即可
 ```
 git config --global http.sslVerify "false"
 ```
