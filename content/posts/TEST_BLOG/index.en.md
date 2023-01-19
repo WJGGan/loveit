@@ -91,8 +91,8 @@ git config --global http.sslVerify "false"
 *1更改文件
 *2打开vscode左侧的源代码管理
 *3点击+号暂存更改
-*4输入commit信息
-*5点击提交即可
+*4输入commit信息点击提交即可
+*5push(推送)
 
 {{< /admonition>}}
 ### 5 横幅
