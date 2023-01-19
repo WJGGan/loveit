@@ -49,6 +49,18 @@ lightgallery: true
 在构建网站时, 你可以使用 `--theme` 选项设置主题. 但是, 我建议你修改配置文件 (**config.toml**) 将本主题设置为默认主题.
 {{< /admonition >}}
 
+### 4 图片实现
+尝试通过微博图床的方式实现，在本地*hugo server*运行时可以实现图片的加载，但发布到网站中便无法实现，可能由于使用
+netlify发布无法载入图片。
+直接将图片存储到本地文件夹中再git到github上也并不麻烦，所以采取这样的方式也不失为一个很好的选择。
+
+### 5 git流程
+```bash
+git init 
+git add .
+git commit -m "commit messages"
+git push
+```
 ***
 ## 未实现的功能 {#test-no}
 
