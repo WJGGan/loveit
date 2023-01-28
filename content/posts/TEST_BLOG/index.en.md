@@ -180,3 +180,5 @@ Emoji 无法使用，config文件中的enableEmoji
 隐藏问题可以使用横幅嵌套代码实现
 应该也很少会贴代码 
 zz
+testnew
+![sky](../test_images/sky.jpg)
